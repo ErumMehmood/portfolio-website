@@ -20,9 +20,24 @@
   --glow2: rgba(0,212,255,0.07);
   --shadow: 0 20px 60px rgba(0,0,0,0.5);
   --radius: 12px;
-  --font-display: 'Syne', sans-serif;
-  --font-mono: 'JetBrains Mono', monospace;
-  --font-body: 'Space Mono', monospace;
+	--font-display: 'Orbitron', sans-serif;
+	--font-body: 'Inter', sans-serif;
+	--font-mono: 'JetBrains Mono', monospace;
+}
+body {
+  font-family: var(--font-body);
+}
+
+h1, h2, h3, .hero-title, .logo {
+  font-family: var(--font-display);
+}
+
+.nav-links a,
+.badge,
+.btn,
+.skill-tag,
+.project-category {
+  font-family: var(--font-mono);
 }
 [data-theme="light"] {
   --bg: #f0f4fa;
@@ -71,6 +86,7 @@ section{padding:6rem 2rem;}
 .section-label::before{content:'';width:24px;height:1px;background:var(--accent);}
 .section-title{font-family:var(--font-display);font-size:clamp(1.8rem,4vw,2.8rem);font-weight:800;color:var(--text);margin-bottom:.5rem;line-height:1.1;}
 .section-sub{color:var(--text2);font-size:.85rem;max-width:600px;margin-bottom:3rem;line-height:1.8;}
+
 
 /* HERO */
 #hero{min-height:100vh;display:flex;align-items:center;position:relative;overflow:hidden;padding-top:64px;}

@@ -56,30 +56,172 @@
   
   
   <div class="hero-content container">
-  
-  
-  
-    <div class="hero-badge">
-      <span></span> Available for Research Collaborations & Senior Dev Roles
+
+    <!-- LEFT COLUMN: existing text content -->
+    <div class="hero-left">
+      <div class="hero-badge">
+        <span></span> Available for Senior Dev Roles & Research Collaborations 
+      </div>
+      <div class="hero-title">Backend Developer · AI Researcher · Security Engineer</div>
+      <h1 class="hero-name">
+        <span class="first">Dr. Erum</span>
+        <span class="last">Mehmood</span>
+      </h1>
+      <p class="hero-desc">Building secure, intelligent, and scalable systems at the intersection of AI, backend engineering, cybersecurity, and real-time distributed data architectures. PhD in Computer Science — from research papers to production systems.</p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn-primary">⬡ View Projects</a>
+        <a href="#" class="btn-outline" id="resumeBtn">↓ Download Resume</a>
+        <a href="#contact" class="btn-outline">→ Contact Me</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><span class="stat-num">5+</span><span class="stat-label">Years Research</span></div>
+        <div class="stat"><span class="stat-num">20+</span><span class="stat-label">Projects Built</span></div>
+        <div class="stat"><span class="stat-num">9+</span><span class="stat-label">Publications</span></div>
+        <div class="stat"><span class="stat-num">50+</span><span class="stat-label">Students Mentored</span></div>
+      </div>
     </div>
-    <div class="hero-title">Backend Developer · AI Researcher · Security Engineer</div>
-    <h1 class="hero-name">
-      <span class="first">Dr. Erum</span>
-      <span class="last">Mehmood</span>
-    </h1>
-    <p class="hero-desc">Building secure, intelligent, and scalable systems at the intersection of AI, backend engineering, cybersecurity, and real-time distributed data architectures. PhD in Computer Science — from research papers to production systems.</p>
-    <div class="hero-buttons">
-      <a href="#projects" class="btn-primary">⬡ View Projects</a>
-      <a href="#" class="btn-outline" id="resumeBtn">↓ Download Resume</a>
-      <a href="#contact" class="btn-outline">→ Contact Me</a>
+
+    <!-- RIGHT COLUMN: project preview card -->
+    <div class="hero-right">
+      <div class="hpc-wrap">
+        <div class="hpc-glow" aria-hidden="true"></div>
+        <article class="hpc-card" id="hpcCard" aria-label="Featured project preview">
+
+          <!-- Main image / visual -->
+          <div class="hpc-img-wrap">
+            <img
+              id="hpcMainImg"
+              src="assets/images/project-ai-security.webp"
+              alt=""
+              loading="eager"
+              onerror="this.style.display='none';document.getElementById('hpcImgPH').style.display='flex';"
+            />
+            <div class="hpc-img-placeholder" id="hpcImgPH" style="display:none;" aria-hidden="true">
+              <div class="hpc-grid-lines"></div>
+              <svg class="hpc-ph-icon" width="54" height="54" viewBox="0 0 54 54" fill="none">
+                <rect x="4" y="12" width="46" height="32" rx="4" stroke="#00d4ff" stroke-width="1.5"/>
+                <path d="M4 21h46" stroke="#00d4ff" stroke-width="1.2"/>
+                <circle cx="10" cy="16.5" r="2" fill="#ef4444"/>
+                <circle cx="16.5" cy="16.5" r="2" fill="#f59e0b"/>
+                <circle cx="23" cy="16.5" r="2" fill="#10b981"/>
+                <rect x="8" y="26" width="17" height="12" rx="2" stroke="#818cf8" stroke-width="1.2"/>
+                <rect x="29" y="26" width="17" height="4.5" rx="1.5" stroke="#00d4ff" stroke-width="1.2"/>
+                <rect x="29" y="33.5" width="11" height="4.5" rx="1.5" stroke="#00d4ff" stroke-width="1.2"/>
+                <path d="M23 46h14M30 42v4" stroke="#00d4ff" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+              <span class="hpc-ph-label" id="hpcPhLabel">assets/images/project-ai-security.webp</span>
+            </div>
+            <div class="hpc-img-overlay" aria-hidden="true"></div>
+            <div class="hpc-status-pill" aria-live="polite">
+              <span class="hpc-status-dot" aria-hidden="true"></span>
+              <span id="hpcStatusText">Active Research</span>
+            </div>
+            <div class="hpc-slide-count">
+              <b id="hpcCurrentNum">01</b> / 03
+            </div>
+            <div class="hpc-progress-bar" id="hpcProgressBar" aria-hidden="true"></div>
+          </div>
+
+          <!-- Card body -->
+          <div class="hpc-body">
+            <div class="hpc-cat-badge hpc-cyan" id="hpcBadge">AI Security Project</div>
+            <h2 class="hpc-project-title" id="hpcTitle">EV Charging Security Simulation Platform</h2>
+            <p class="hpc-project-desc" id="hpcDesc">
+              Containerized OCPP attack-simulation &amp; anomaly-detection system for EV infrastructure cybersecurity research.
+            </p>
+            <div class="hpc-tech-tags" id="hpcTags">
+              <span class="hpc-tech-tag">Python</span>
+              <span class="hpc-tech-tag">Docker</span>
+              <span class="hpc-tech-tag">Wireshark</span>
+            </div>
+
+            <!-- Thumbnail row -->
+			<div class="hpc-thumbnails">
+
+			  <div class="hpc-thumb hpc-thumb-active" id="hpcThumb0" data-idx="0" role="button" tabindex="0" aria-label="Go to project 1">
+				<img src="assets/images/project-ai-security.webp" alt=""
+				  onerror="this.style.display='none';this.closest('.hpc-thumb').querySelector('.hpc-thumb-ph').style.display='flex';"/>
+				<div class="hpc-thumb-ph" style="display:none;" aria-hidden="true">
+				  <svg width="28" height="28" viewBox="0 0 28 28" fill="none" opacity=".5">
+					<rect x="2" y="2" width="24" height="17" rx="2" stroke="#00d4ff" stroke-width="1.1"/>
+					<path d="M2 7h24" stroke="#00d4ff" stroke-width=".9"/>
+					<rect x="4" y="10" width="9" height="6" rx="1" stroke="#818cf8" stroke-width="1"/>
+					<rect x="16" y="10" width="8" height="2.5" rx=".7" stroke="#00d4ff" stroke-width=".9"/>
+					<rect x="16" y="14" width="5.5" height="2.5" rx=".7" stroke="#00d4ff" stroke-width=".9"/>
+				  </svg>
+				</div>
+				<div class="hpc-thumb-overlay" aria-hidden="true"></div>
+				<span class="hpc-thumb-lbl">Dashboard</span>
+			  </div>
+
+			  <div class="hpc-thumb" id="hpcThumb1" data-idx="1" role="button" tabindex="0" aria-label="Go to project 2">
+				<img src="assets/images/project-backend-dashboard.webp" alt=""
+				  onerror="this.style.display='none';this.closest('.hpc-thumb').querySelector('.hpc-thumb-ph').style.display='flex';"/>
+				<div class="hpc-thumb-ph" style="display:none;" aria-hidden="true">
+				  <svg width="28" height="28" viewBox="0 0 28 28" fill="none" opacity=".5">
+					<rect x="2" y="2" width="9" height="13" rx="2" stroke="#10b981" stroke-width="1.1"/>
+					<rect x="15" y="2" width="11" height="5.5" rx="2" stroke="#818cf8" stroke-width="1.1"/>
+					<rect x="15" y="10" width="11" height="5.5" rx="2" stroke="#f59e0b" stroke-width="1.1"/>
+					<path d="M11 8h4M11 13h4" stroke="#00d4ff" stroke-width=".9" stroke-linecap="round"/>
+				  </svg>
+				</div>
+				<div class="hpc-thumb-overlay" aria-hidden="true"></div>
+				<span class="hpc-thumb-lbl">Architecture</span>
+			  </div>
+
+			  <div class="hpc-thumb" id="hpcThumb2" data-idx="2" role="button" tabindex="0" aria-label="Go to project 3">
+				<img src="assets/images/project-research-framework.webp" alt=""
+				  onerror="this.style.display='none';this.closest('.hpc-thumb').querySelector('.hpc-thumb-ph').style.display='flex';"/>
+				<div class="hpc-thumb-ph" style="display:none;" aria-hidden="true">
+				  <svg width="28" height="28" viewBox="0 0 28 28" fill="none" opacity=".5">
+					<rect x="3" y="5" width="22" height="15" rx="3" stroke="#00d4ff" stroke-width="1.1"/>
+					<circle cx="10" cy="12" r="2.5" stroke="#818cf8" stroke-width="1"/>
+					<path d="M5 19l6-5 4 3 3-4 5 6" stroke="#10b981" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+					<path d="M8 23h12" stroke="#00d4ff" stroke-width=".9" stroke-linecap="round"/>
+				  </svg>
+				</div>
+				<div class="hpc-thumb-overlay" aria-hidden="true"></div>
+				<span class="hpc-thumb-lbl">Parsing</span>
+			  </div>
+
+			</div>
+
+            <!-- Footer: dots + nav + CTA -->
+            <div class="hpc-footer">
+              <div class="hpc-pagination" role="tablist" aria-label="Projects">
+                <div class="hpc-page-dot hpc-dot-active" data-idx="0" role="tab" tabindex="0" aria-label="Project 1" aria-selected="true"></div>
+                <div class="hpc-page-dot" data-idx="1" role="tab" tabindex="0" aria-label="Project 2" aria-selected="false"></div>
+                <div class="hpc-page-dot" data-idx="2" role="tab" tabindex="0" aria-label="Project 3" aria-selected="false"></div>
+              </div>
+              <div class="hpc-nav-btns">
+                <button class="hpc-nav-btn" id="hpcPrevBtn" aria-label="Previous project">&#8249;</button>
+                <button class="hpc-nav-btn" id="hpcNextBtn" aria-label="Next project">&#8250;</button>
+              </div>
+              <a href="#projects" class="hpc-view-all">View All &#8594;</a>
+            </div>
+          </div>
+
+          <!-- Metrics strip -->
+          <div class="hpc-metrics">
+            <div class="hpc-metric-cell">
+              <span class="hpc-metric-val" id="hpcMv1">20+</span>
+              <span class="hpc-metric-lbl" id="hpcMl1">Projects</span>
+            </div>
+            <div class="hpc-metric-cell">
+              <span class="hpc-metric-val" id="hpcMv2">9+</span>
+              <span class="hpc-metric-lbl" id="hpcMl2">Publications</span>
+            </div>
+            <div class="hpc-metric-cell">
+              <span class="hpc-metric-val" id="hpcMv3">IEEE</span>
+              <span class="hpc-metric-lbl" id="hpcMl3">Published</span>
+            </div>
+          </div>
+
+        </article>
+      </div>
     </div>
-	
-    <div class="hero-stats">
-      <div class="stat"><span class="stat-num">5+</span><span class="stat-label">Years Research</span></div>
-      <div class="stat"><span class="stat-num">20+</span><span class="stat-label">Projects Built</span></div>
-      <div class="stat"><span class="stat-num">9+</span><span class="stat-label">Publications</span></div>
-      <div class="stat"><span class="stat-num">50+</span><span class="stat-label">Students Mentored</span></div>
-    </div>
+    <!-- END RIGHT COLUMN -->
+
   </div>
 </section>
 
@@ -287,7 +429,7 @@
           </div>
           <div class="project-links">
             <a href="#" class="project-link">⌥ View Details</a>
-            <a href="#" class="project-link">↗ GitHub</a>
+            <a href="https://github.com/ErumMehmood" class="project-link">↗ GitHub</a>
           </div>
         </div>
       </div>
@@ -317,7 +459,7 @@
           </div>
           <div class="project-links">
             <a href="#" class="project-link">⌥ View Details</a>
-            <a href="#" class="project-link">↗ GitHub</a>
+            <a href="https://github.com/ErumMehmood" class="project-link">↗ GitHub</a>
           </div>
         </div>
       </div>
@@ -347,7 +489,7 @@
           </div>
           <div class="project-links">
             <a href="#" class="project-link">⌥ View Details</a>
-            <a href="#" class="project-link">↗ GitHub</a>
+            <a href="https://github.com/ErumMehmood" class="project-link">↗ GitHub</a>
           </div>
         </div>
       </div>
@@ -376,7 +518,7 @@
           </div>
           <div class="project-links">
             <a href="#" class="project-link">⌥ View Details</a>
-            <a href="#" class="project-link">↗ GitHub</a>
+            <a href="https://github.com/ErumMehmood" class="project-link">↗ GitHub</a>
           </div>
         </div>
       </div>
@@ -405,7 +547,7 @@
           </div>
           <div class="project-links">
             <a href="#" class="project-link">⌥ View Details</a>
-            <a href="#" class="project-link">↗ GitHub</a>
+            <a href="https://github.com/ErumMehmood" class="project-link">↗ GitHub</a>
           </div>
         </div>
       </div>
@@ -556,7 +698,7 @@
           <div class="contact-item-icon">✉️</div>
           <div class="contact-item-text">
             <label>Email</label>
-            <span>dr.erummehmood@email.com</span>
+            <span>erum9964@hotmail.com</span>
           </div>
         </div>
         <div class="contact-item">
@@ -574,9 +716,9 @@
           </div>
         </div>
         <div class="contact-socials">
-          <a href="#" class="social-btn" title="LinkedIn">in</a>
-          <a href="#" class="social-btn" title="GitHub">gh</a>
-          <a href="#" class="social-btn" title="Google Scholar">gs</a>
+          <a href="https://www.linkedin.com/in/erum-mehmood/" class="social-btn" title="LinkedIn">in</a>
+          <a href="https://github.com/ErumMehmood" class="social-btn" title="GitHub">gh</a>
+          <a href="https://scholar.google.com/citations?user=7TjoqbgAAAAJ&hl=en" class="social-btn" title="Google Scholar">gs</a>
           <a href="#" class="social-btn" title="Twitter/X">𝕏</a>
         </div>
       </div>
@@ -690,6 +832,114 @@ document.getElementById('resumeBtn').addEventListener('click', (e) => {
   e.preventDefault();
   alert('Resume download link — replace with actual PDF URL.');
 });
+
+// HERO PROJECT CARD
+(function () {
+  var PROJECTS = [
+    {
+      imageSrc: 'assets/images/project-ai-security.webp',
+      statusLabel: 'Active Research',
+      badge: 'AI Security Project', badgeColor: 'hpc-cyan',
+      title: 'EV Charging Security Simulation Platform',
+      desc: 'Containerized OCPP attack-simulation & anomaly-detection for EV infrastructure cybersecurity research.',
+      tags: ['Python', 'Docker', 'Wireshark'],
+      mv: ['20+', '9+', 'IEEE'], ml: ['Projects', 'Publications', 'Published']
+    },
+    {
+      imageSrc: 'assets/images/project-backend-dashboard.webp',
+      statusLabel: 'Active Project',
+      badge: 'Backend System', badgeColor: 'hpc-green',
+      title: 'Healthy Empower Backend System',
+      desc: 'Fitness platform REST API with JWT auth, workout management, and gamified rewards for React Native.',
+      tags: ['Node.js', 'Express.js', 'SQLite'],
+      mv: ['10+', 'JWT', 'v3.0'], ml: ['Endpoints', 'Auth Type', 'API Ver.']
+    },
+    {
+      imageSrc: 'assets/images/project-research-framework.webp',
+      statusLabel: 'Research Build',
+      badge: 'AI / ETL Pipeline', badgeColor: 'hpc-orange',
+      title: 'AI-Driven Multi-Format PDF Parsing & ETL',
+      desc: 'OCR-powered document pipeline with timestamp-aware ETL, multi-format parsing, and Excel validation.',
+      tags: ['Python', 'Tesseract', 'Pandas'],
+      mv: ['6', 'OCR', 'ETL'], ml: ['Parsers', 'Engine', 'Pipeline']
+    }
+  ];
+
+  var card     = document.getElementById('hpcCard');
+  var mainImg  = document.getElementById('hpcMainImg');
+  var imgPH    = document.getElementById('hpcImgPH');
+  var phLbl    = document.getElementById('hpcPhLabel');
+  var badgeEl  = document.getElementById('hpcBadge');
+  var titleEl  = document.getElementById('hpcTitle');
+  var descEl   = document.getElementById('hpcDesc');
+  var tagsEl   = document.getElementById('hpcTags');
+  var curNum   = document.getElementById('hpcCurrentNum');
+  var statusEl = document.getElementById('hpcStatusText');
+  var progBar  = document.getElementById('hpcProgressBar');
+  var mv1=document.getElementById('hpcMv1'),ml1=document.getElementById('hpcMl1');
+  var mv2=document.getElementById('hpcMv2'),ml2=document.getElementById('hpcMl2');
+  var mv3=document.getElementById('hpcMv3'),ml3=document.getElementById('hpcMl3');
+  var pgDots   = document.querySelectorAll('.hpc-page-dot');
+  var thumbEls = [document.getElementById('hpcThumb0'),document.getElementById('hpcThumb1'),document.getElementById('hpcThumb2')];
+  var current=0,intervalId=null,rafId=null,startTs=null,paused=false,DURATION=5000;
+
+  function render(idx,dir){
+    var p=PROJECTS[idx];
+    mainImg.style.transition='opacity .2s';
+    mainImg.style.opacity='0';
+    setTimeout(function(){
+      mainImg.src=p.imageSrc; mainImg.style.display='block'; imgPH.style.display='none';
+      mainImg.onload=function(){mainImg.style.transition='opacity .4s';mainImg.style.opacity='.9';};
+      mainImg.onerror=function(){mainImg.style.display='none';imgPH.style.display='flex';if(phLbl)phLbl.textContent=p.imageSrc;};
+    },150);
+    var out=dir>0?'10px':'-10px';
+    [titleEl,descEl].forEach(function(el){el.style.transition='none';el.style.opacity='0';el.style.transform='translateX('+out+')';});
+    badgeEl.textContent=p.badge; badgeEl.className='hpc-cat-badge '+p.badgeColor;
+    statusEl.textContent=p.statusLabel;
+    curNum.textContent=String(idx+1).padStart(2,'0');
+    tagsEl.innerHTML=p.tags.map(function(t){return'<span class="hpc-tech-tag">'+t+'</span>';}).join('');
+    mv1.textContent=p.mv[0];ml1.textContent=p.ml[0];
+    mv2.textContent=p.mv[1];ml2.textContent=p.ml[1];
+    mv3.textContent=p.mv[2];ml3.textContent=p.ml[2];
+    requestAnimationFrame(function(){
+      titleEl.textContent=p.title; descEl.textContent=p.desc;
+      [titleEl,descEl].forEach(function(el){
+        el.style.transition='opacity .35s ease,transform .4s cubic-bezier(.22,.68,0,1.2)';
+        el.style.opacity='1'; el.style.transform='translateX(0)';
+      });
+    });
+    pgDots.forEach(function(dot,i){dot.classList.toggle('hpc-dot-active',i===idx);dot.setAttribute('aria-selected',i===idx?'true':'false');});
+    thumbEls.forEach(function(th,i){th.classList.toggle('hpc-thumb-active',i===idx);});
+  }
+
+  function goTo(idx,dir){current=((idx%PROJECTS.length)+PROJECTS.length)%PROJECTS.length;render(current,dir);resetTimer();}
+  function tickProgress(ts){
+    if(paused)return;if(!startTs)startTs=ts;
+    var pct=Math.min(100,(ts-startTs)/DURATION*100);
+    progBar.style.width=pct+'%';if(pct<100)rafId=requestAnimationFrame(tickProgress);
+  }
+  function resetTimer(){
+    clearInterval(intervalId);cancelAnimationFrame(rafId);startTs=null;
+    progBar.style.transition='none';progBar.style.width='0%';
+    if(!paused){rafId=requestAnimationFrame(tickProgress);intervalId=setInterval(function(){goTo(current+1,1);},DURATION);}
+  }
+
+  document.getElementById('hpcPrevBtn').addEventListener('click',function(){goTo(current-1,-1);});
+  document.getElementById('hpcNextBtn').addEventListener('click',function(){goTo(current+1,1);});
+  pgDots.forEach(function(dot){
+    dot.addEventListener('click',function(){var i=parseInt(dot.dataset.idx,10);goTo(i,i>current?1:-1);});
+    dot.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();var i=parseInt(dot.dataset.idx,10);goTo(i,i>current?1:-1);}});
+  });
+  thumbEls.forEach(function(th){
+    th.addEventListener('click',function(){var i=parseInt(th.dataset.idx,10);goTo(i,i>current?1:-1);});
+    th.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();var i=parseInt(th.dataset.idx,10);goTo(i,i>current?1:-1);}});
+  });
+  card.addEventListener('mouseenter',function(){paused=true;clearInterval(intervalId);cancelAnimationFrame(rafId);});
+  card.addEventListener('mouseleave',function(){paused=false;resetTimer();});
+  card.addEventListener('keydown',function(e){if(e.key==='ArrowRight')goTo(current+1,1);if(e.key==='ArrowLeft')goTo(current-1,-1);});
+
+  render(0,1); resetTimer();
+})();
 
 // SMOOTH NAV ACTIVE STATE
 const sections = document.querySelectorAll('section[id]');

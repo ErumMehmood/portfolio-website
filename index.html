@@ -183,6 +183,23 @@
 				<div class="hpc-thumb-overlay" aria-hidden="true"></div>
 				<span class="hpc-thumb-lbl">Parsing</span>
 			  </div>
+			  
+			  <div class="hpc-thumb" id="hpcThumb3" data-idx="3" role="button" tabindex="0" aria-label="Go to project 4">
+				<img src="assets/images/heterogeneous-stream-disk-join-etl.webp" alt="Heterogeneous Stream-Disk Join ETL Architecture preview"
+				  onerror="this.style.display='none';this.closest('.hpc-thumb').querySelector('.hpc-thumb-ph').style.display='flex';"/>
+				<div class="hpc-thumb-ph" style="display:none;" aria-hidden="true">
+				  <svg width="28" height="28" viewBox="0 0 28 28" fill="none" opacity=".5">
+					<rect x="3" y="5" width="22" height="15" rx="3" stroke="#00d4ff" stroke-width="1.1"/>
+					<circle cx="10" cy="12" r="2.5" stroke="#818cf8" stroke-width="1"/>
+					<path d="M5 19l6-5 4 3 3-4 5 6" stroke="#10b981" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+					<path d="M8 23h12" stroke="#00d4ff" stroke-width=".9" stroke-linecap="round"/>
+				  </svg>
+				</div>
+				<div class="hpc-thumb-overlay" aria-hidden="true"></div>
+				<span class="hpc-thumb-lbl">ETL Join</span>
+			  </div>
+			  
+			  
 
 			</div>
 
@@ -192,6 +209,7 @@
                 <div class="hpc-page-dot hpc-dot-active" data-idx="0" role="tab" tabindex="0" aria-label="Project 1" aria-selected="true"></div>
                 <div class="hpc-page-dot" data-idx="1" role="tab" tabindex="0" aria-label="Project 2" aria-selected="false"></div>
                 <div class="hpc-page-dot" data-idx="2" role="tab" tabindex="0" aria-label="Project 3" aria-selected="false"></div>
+				<div class="hpc-page-dot" data-idx="3" role="tab" tabindex="0" aria-label="Project 4" aria-selected="false"></div>
               </div>
               <div class="hpc-nav-btns">
                 <button class="hpc-nav-btn" id="hpcPrevBtn" aria-label="Previous project">&#8249;</button>
@@ -214,6 +232,10 @@
             <div class="hpc-metric-cell">
               <span class="hpc-metric-val" id="hpcMv3">IEEE</span>
               <span class="hpc-metric-lbl" id="hpcMl3">Published</span>
+            </div>
+			<div class="hpc-metric-cell">
+              <span class="hpc-metric-val" id="hpcMv4">IEEE</span>
+              <span class="hpc-metric-lbl" id="hpcMl4">Published</span>
             </div>
           </div>
 
@@ -428,8 +450,11 @@
             <span class="tech-badge">OpenPyXL</span>
           </div>
           <div class="project-links">
-            <a href="#" class="project-link">⌥ View Details</a>
-            <a href="https://github.com/ErumMehmood" class="project-link">↗ GitHub</a>
+            <a href="#" 
+  class="project-link view-details-btn"
+  data-img="assets/images/project-research-framework.webp"
+  data-title="AI-Driven Multi-Format PDF Parsing">⌥ View Details</a>
+            <a href="https://github.com/ErumMehmood/DocuStream-ETL" class="project-link">↗ GitHub</a>
           </div>
         </div>
       </div>
@@ -442,7 +467,7 @@
           <span class="project-cat-badge" style="color:#10b981;border-color:#10b981;background:rgba(16,185,129,.1);">Backend</span>
         </div>
         <div class="project-body">
-          <h3 class="project-title">Healthy Empower Backend System</h3>
+          <h3 class="project-title">Healthy Empower Fitness & Wellness App</h3>
           <p class="project-desc">Full-featured backend for a fitness and wellness platform with workout API endpoints, JWT authentication, gamified reward systems, and mobile-ready database integration.</p>
           <ul class="project-features">
             <li>Workout & fitness APIs</li>
@@ -451,6 +476,7 @@
             <li>SQLite database integration</li>
           </ul>
           <div class="tech-stack">
+		    <span class="tech-badge">TypeScript</span>
             <span class="tech-badge">Node.js</span>
             <span class="tech-badge">Express.js</span>
             <span class="tech-badge">SQLite</span>
@@ -458,8 +484,12 @@
             <span class="tech-badge">JWT</span>
           </div>
           <div class="project-links">
-            <a href="#" class="project-link">⌥ View Details</a>
-            <a href="https://github.com/ErumMehmood" class="project-link">↗ GitHub</a>
+		  
+            <a href="#" 
+  class="project-link view-details-btn"
+  data-img="assets/images/project-backend-dashboard.webp"
+  data-title="Healthy Empower Fitness">⌥ View Details</a>
+            <a href="https://github.com/ErumMehmood/healthy-empower" class="project-link">↗ GitHub</a>
           </div>
         </div>
       </div>
@@ -488,8 +518,11 @@
             <span class="tech-badge">OCPP</span>
           </div>
           <div class="project-links">
-            <a href="#" class="project-link">⌥ View Details</a>
-            <a href="https://github.com/ErumMehmood" class="project-link">↗ GitHub</a>
+            <a href="#" 
+  class="project-link view-details-btn"
+  data-img="assets/images/project-ai-security.webp"
+  data-title="EV Charging Security Simulation">⌥ View Details</a>
+            <a href="https://github.com/ErumMehmood/omtd-simulator" class="project-link">↗ GitHub</a>
           </div>
         </div>
       </div>
@@ -517,13 +550,82 @@
             <span class="tech-badge">Cryptography</span>
           </div>
           <div class="project-links">
-            <a href="#" class="project-link">⌥ View Details</a>
+		  
+            <a   href="#" 
+  class="project-link view-details-btn"
+  data-img="assets/images/encryption.webp"
+  data-title="DNA-Based Secure Image Encryption System">⌥ View Details</a>
             <a href="https://github.com/ErumMehmood" class="project-link">↗ GitHub</a>
           </div>
         </div>
       </div>
+	  
+  
+	  <!-- Project: Heterogeneous Stream-Disk Join ETL Architecture -->
+		<div class="project-card fade-up stagger-5" data-category="backend">
+		  <div class="project-img">
+			<div class="project-img-bg">
+			  <div class="project-img-pattern"></div>
+			</div>
 
-      <!-- Project 5 -->
+			<span class="project-emoji">🔄</span>
+
+			<span 
+			  class="project-cat-badge" 
+			  style="color:#22d3ee;border-color:#22d3ee;background:rgba(34,211,238,.1);"
+			>
+			  Research / ETL
+			</span>
+		  </div>
+
+		  <div class="project-body">
+			<h3 class="project-title">
+			  Heterogeneous Stream-Disk Join ETL Architecture
+			</h3>
+
+			<p class="project-desc">
+			  ETL architecture for heterogeneous streams using extraction, tokenization, stream-disk join query processing, distributed data layers, and 
+			  data warehouse.
+			</p>
+
+			<ul class="project-features">
+			  <li>Heterogeneous stream generation and pre-processing</li>
+			  <li>Stream-disk join query processing </li>
+			  <li>Distributed data layer with transformed stream consumers</li>
+			</ul>
+
+			<div class="tech-stack">
+			  <span class="tech-badge">ETL</span>
+			  <span class="tech-badge">Stream Processing</span>
+			  <span class="tech-badge">Apache Kafka</span>
+			  <span class="tech-badge">Apache Spark</span>
+			  <span class="tech-badge">MongoDB</span>
+			  <span class="tech-badge">Distributed Data</span>
+			</div>
+
+			<div class="project-links">
+			  <a 
+				href="#" 
+				class="project-link view-details-btn"
+				data-img="assets/images/heterogeneous-stream-disk-join-etl.webp"
+				data-title="Heterogeneous Stream-Disk Join ETL Architecture"
+			  >
+				⌥ View Details
+			  </a>
+
+			  <a 
+				href="https://github.com/ErumMehmood" 
+				class="project-link" 
+				target="_blank" 
+				rel="noopener"
+			  >
+				↗ GitHub
+			  </a>
+			</div>
+		  </div>
+		</div>
+
+      <!-- Project 6 -->
       <div class="project-card fade-up stagger-4" data-category="backend">
         <div class="project-img">
           <div class="project-img-bg"><div class="project-img-pattern"></div></div>
@@ -592,14 +694,14 @@
     <div class="pubs-section">
       <div class="section-label" style="margin-top:2.5rem;">Selected Publications</div>
       <div class="pub-card fade-up">
-        <div class="pub-venue">IEEE ACCESS · Peer Reviewed</div>
-        <div class="pub-title">AI-Driven Anomaly Detection Framework for OCPP-Based EV Charging Infrastructure Security</div>
-        <div class="pub-authors">Dr. Erum Mehmood et al. · IEEE Access · 2023–2024</div>
+        <div class="pub-venue">Artificial Intelligence Review (SPRINGER) . Peer Reviewed</div>
+        <div class="pub-title">Challenges in Detecting Security Threats in WoT: A Systematic Literature Review</div>
+        <div class="pub-authors">Dr. Erum Mehmood et al. · Springer · 2024–2025</div>
       </div>
       <div class="pub-card fade-up stagger-1">
-        <div class="pub-venue">SPRINGER · Peer Reviewed</div>
-        <div class="pub-title">DNA-Based Hyper-Chaotic Image Encryption with Adaptive Confusion-Diffusion Mechanism</div>
-        <div class="pub-authors">Dr. Erum Mehmood et al. · Springer · 2023</div>
+        <div class="pub-venue">ICACS 2026 · Peer Reviewed</div>
+        <div class="pub-title">Secure Image Encryption Using 5D Hyper-chaotic Keystream and 3D Pixel Scrambling with Adaptive Confusion-Diffusion</div>
+        <div class="pub-authors">Dr. Erum Mehmood et al. · ICACS · 2026</div>
       </div>
       <div class="pub-card fade-up stagger-2">
         <div class="pub-venue">IEEE ACCESS · Peer Reviewed</div>
@@ -607,8 +709,8 @@
         <div class="pub-authors">Dr. Erum Mehmood et al. · IEEE Access · 2022</div>
       </div>
       <div class="pub-card fade-up stagger-3">
-        <div class="pub-venue">SPRINGER · Peer Reviewed</div>
-        <div class="pub-title">Intelligent OCR-Based ETL Pipeline for Multi-Format Document Processing and Validation</div>
+        <div class="pub-venue">Information Systems (SPRINGER)  · Peer Reviewed</div>
+        <div class="pub-title">Distributed real-time ETL architecture for unstructured big data</div>
         <div class="pub-authors">Dr. Erum Mehmood et al. · Springer · 2022</div>
       </div>
     </div>
@@ -661,22 +763,22 @@
         <h4>Resume</h4>
         <p>Download PDF</p>
       </a>
-      <a class="resume-card fade-up stagger-1" href="#" target="_blank">
+      <a class="resume-card fade-up stagger-1" href="assets/Dr Erum Mehmood - Research CV.pdf" target="_blank">
         <div class="icon">🎓</div>
         <h4>Academic CV</h4>
         <p>Full Research CV</p>
       </a>
-      <a class="resume-card fade-up stagger-2" href="#" target="_blank">
+      <a class="resume-card fade-up stagger-2" href="https://www.linkedin.com/in/erum-mehmood/" target="_blank">
         <div class="icon">🔗</div>
         <h4>LinkedIn</h4>
         <p>Professional Profile</p>
       </a>
-      <a class="resume-card fade-up stagger-3" href="#" target="_blank">
+      <a class="resume-card fade-up stagger-3" href="https://github.com/ErumMehmood" target="_blank">
         <div class="icon">⌨️</div>
         <h4>GitHub</h4>
         <p>Code & Projects</p>
       </a>
-      <a class="resume-card fade-up stagger-4" href="#" target="_blank">
+      <a class="resume-card fade-up stagger-4" href="https://scholar.google.com/citations?user=7TjoqbgAAAAJ&hl=en" target="_blank">
         <div class="icon">🔬</div>
         <h4>Google Scholar</h4>
         <p>Publications & Citations</p>
@@ -749,7 +851,7 @@
 <!-- FOOTER -->
 <footer>
   <div class="footer-inner">
-    <div class="footer-text">Designed & Developed by <span>Dr. Erum Mehmood</span> · © 2025</div>
+    <div class="footer-text">Designed & Developed by <span>Dr. Erum Mehmood</span> · © 2026</div>
     <div class="footer-links">
       <a href="#hero">Top</a>
       <a href="#projects">Projects</a>
@@ -758,6 +860,18 @@
     </div>
   </div>
 </footer>
+
+<!-- FULL SCREEN IMAGE MODAL -->
+<div class="image-modal" id="imageModal">
+  <button class="image-modal-close" id="imageModalClose" aria-label="Close image preview">
+    ×
+  </button>
+
+  <div class="image-modal-content">
+    <h2 id="imageModalTitle"></h2>
+    <img id="imageModalImg" src="" alt="Project preview image">
+  </div>
+</div>
 
 <script>
 // THEME TOGGLE
@@ -862,6 +976,15 @@ document.getElementById('resumeBtn').addEventListener('click', (e) => {
       desc: 'OCR-powered document pipeline with timestamp-aware ETL, multi-format parsing, and Excel validation.',
       tags: ['Python', 'Tesseract', 'Pandas'],
       mv: ['6', 'OCR', 'ETL'], ml: ['Parsers', 'Engine', 'Pipeline']
+    },	
+	{
+      imageSrc: 'assets/images/heterogeneous-stream-disk-join-etl.webp',
+      statusLabel: 'Research Build',
+      badge: 'RESEARCH ETL PROJECT', badgeColor: 'hpc-orange',
+      title: 'Heterogeneous Stream-Disk Join ETL Architecture',
+      desc: 'Research-based ETL architecture for heterogeneous JSON, TXT, XML, and CSV streams using tokenization, stream-disk join processing, distributed data layers, and transformed stream consumers.',
+      tags: ["ETL", "Apache Spark", "Apache Kafka"],
+       mv: ["4", "3", "M+"],  ml: ["Formats", "Algorithms", "Messages"]
     }
   ];
 
@@ -879,8 +1002,9 @@ document.getElementById('resumeBtn').addEventListener('click', (e) => {
   var mv1=document.getElementById('hpcMv1'),ml1=document.getElementById('hpcMl1');
   var mv2=document.getElementById('hpcMv2'),ml2=document.getElementById('hpcMl2');
   var mv3=document.getElementById('hpcMv3'),ml3=document.getElementById('hpcMl3');
+  var mv4=document.getElementById('hpcMv4'),ml4=document.getElementById('hpcMl4');
   var pgDots   = document.querySelectorAll('.hpc-page-dot');
-  var thumbEls = [document.getElementById('hpcThumb0'),document.getElementById('hpcThumb1'),document.getElementById('hpcThumb2')];
+  var thumbEls = [document.getElementById('hpcThumb0'),document.getElementById('hpcThumb1'),document.getElementById('hpcThumb2'), document.getElementById('hpcThumb3')];
   var current=0,intervalId=null,rafId=null,startTs=null,paused=false,DURATION=5000;
 
   function render(idx,dir){
@@ -901,6 +1025,7 @@ document.getElementById('resumeBtn').addEventListener('click', (e) => {
     mv1.textContent=p.mv[0];ml1.textContent=p.ml[0];
     mv2.textContent=p.mv[1];ml2.textContent=p.ml[1];
     mv3.textContent=p.mv[2];ml3.textContent=p.ml[2];
+	mv4.textContent=p.mv[3];ml4.textContent=p.ml[3];
     requestAnimationFrame(function(){
       titleEl.textContent=p.title; descEl.textContent=p.desc;
       [titleEl,descEl].forEach(function(el){
@@ -940,6 +1065,49 @@ document.getElementById('resumeBtn').addEventListener('click', (e) => {
 
   render(0,1); resetTimer();
 })();
+
+// FULL SCREEN PROJECT IMAGE PREVIEW
+const imageModal = document.getElementById('imageModal');
+const imageModalImg = document.getElementById('imageModalImg');
+const imageModalTitle = document.getElementById('imageModalTitle');
+const imageModalClose = document.getElementById('imageModalClose');
+
+document.querySelectorAll('.view-details-btn').forEach((btn) => {
+  btn.addEventListener('click', (e) => {
+    e.preventDefault();
+
+    const imgSrc = btn.dataset.img;
+    const title = btn.dataset.title;
+
+    imageModalImg.src = imgSrc;
+    imageModalTitle.textContent = title;
+
+    imageModal.classList.add('show');
+    document.body.style.overflow = 'hidden';
+  });
+});
+
+imageModalClose.addEventListener('click', () => {
+  imageModal.classList.remove('show');
+  imageModalImg.src = '';
+  document.body.style.overflow = '';
+});
+
+imageModal.addEventListener('click', (e) => {
+  if (e.target === imageModal) {
+    imageModal.classList.remove('show');
+    imageModalImg.src = '';
+    document.body.style.overflow = '';
+  }
+});
+
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape' && imageModal.classList.contains('show')) {
+    imageModal.classList.remove('show');
+    imageModalImg.src = '';
+    document.body.style.overflow = '';
+  }
+});
 
 // SMOOTH NAV ACTIVE STATE
 const sections = document.querySelectorAll('section[id]');
